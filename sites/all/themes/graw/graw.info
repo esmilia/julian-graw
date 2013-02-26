@@ -1,0 +1,14 @@
+name = Graw
+description = Theme for Julian Graw
+version = VERSION
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = stylesheets/screen.css
+stylesheets[all][] = stylesheets/fonts/fonts.css
+
+scripts[] = js/effects.js
+
+
+regions[header] = Header
+regions[content] = Content
+regions[footer] = Footer
